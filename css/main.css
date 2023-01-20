@@ -1,0 +1,18 @@
+.message{
+    width: 100%;
+    padding: 7px;
+    font-size: large;
+  }
+  
+.message.success{
+    background: black;
+    color: #e9f0e6;
+  }
+
+
+.form-control{
+  background:transparent!important;
+  color:black;
+  font-size: 18px!important;
+}
+  
