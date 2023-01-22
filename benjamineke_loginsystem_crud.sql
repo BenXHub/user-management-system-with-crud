@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2023 at 03:09 PM
+-- Generation Time: Jan 22, 2023 at 04:51 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -28,22 +28,19 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `student_list` (
-  `id` int(255) NOT NULL,
-  `firstname` varchar(255) NOT NULL,
-  `lastname` varchar(255) NOT NULL,
-  `course` varchar(255) NOT NULL
+  `id` int(6) UNSIGNED NOT NULL,
+  `fname` varchar(30) NOT NULL,
+  `lname` varchar(30) NOT NULL,
+  `course` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `student_list`
 --
 
-INSERT INTO `student_list` (`id`, `firstname`, `lastname`, `course`) VALUES
-(1, 'Benjamineke', 'Mondia', 'BSCS'),
-(2, 'Jessebel', 'Batan', 'BSCS'),
-(3, 'Ron Hedwig', 'Zape', 'BSCS'),
-(4, 'Cedrick', 'Embestro', 'BSCS'),
-(5, 'Jetro', 'Bagasala', 'BSCS');
+INSERT INTO `student_list` (`id`, `fname`, `lname`, `course`) VALUES
+(6, ' Benjie ', '      Mondia      ', '      BSCS      '),
+(7, ' Jessebel ', 'Batan', ' BSCS ');
 
 -- --------------------------------------------------------
 
@@ -91,7 +88,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `student_list`
 --
 ALTER TABLE `student_list`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `users`
