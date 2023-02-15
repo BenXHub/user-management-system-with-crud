@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="img/BenjaminekeLogo.png">
+    <link rel="shortcut icon" href="img/logo.png">
     <title>Login System with Basic CRUD</title>
 
   </head>

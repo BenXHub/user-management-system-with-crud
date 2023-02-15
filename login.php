@@ -35,7 +35,7 @@
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="img/BenjaminekeLogo.png">
+        <link rel="shortcut icon" href="img/logo.png">
         <title>Login System</title>       
     </head>
     <body>
@@ -48,9 +48,6 @@
                                     <h2>Sign In</h2>
                                 </div>
                                 <br>
-                                <!-- <div class="form-logo">
-                                    <img src="img/BenjaminekeLogo.png" alt="">
-                                </div> -->
                                 
                                 <form action="" method="post">
                                     
